@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgb(170, 58, 180) 0%, rgb(253, 29, 242) 50%, rgb(48, 220, 226) 100%);
+
+}
+
+nav{
+    display: flex;
+    background-color:skyblue;
+    width: 100vw;
+    height: 50px;
+    justify-content: center;
+    
+    
+}
+li{
+    display: inline;
+    float: inline-start;
+}
+a{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: dashed;
+    font-weight: bolder;
+    color: white;
+
+}
+a:hover{
+    background-color: black;
+    border-radius: 30px;
+
+}
+button{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-decoration: dashed;
+    font-weight: bolder;
+    background-color: pink;
+    border-radius: 30px;
+    
+    
+}
+button:hover{
+    background-color: black;
+    border-radius: 30px;
+}
+
+
+main{
+    width: 900px;
+    height: 700px;
+    margin: 10px;
+    padding: 10px;
+    background-image: url("space.jpg");
+    background-position: center;
+    position: relative;
+
+}
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    border-radius: 1000px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    background-image: url("luffy.jpg");
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.vince{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(250%, 50%);
+    font-size: 50px;
+    font-weight: 100px;
+    margin-top: 40px;
+    color: whitesmoke;
+}
+p{
+    position: absolute;
+    left: 50px;
+    color: whitesmoke;
+    width: 500px;
+    height: 500px;
+    font-size: 50%;
+    
+    
+}
+.par{
+    display: flex;
+    color: white;
+}
+texts{
+    color: black;
+    font-size: 5px;
+    
+}
+
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    background-color: aliceblue;
+    font-size: medium;
+}
